@@ -1,0 +1,42 @@
+.review{
+    background-image: url("../img/review.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 2em;;
+}
+.review-title{
+    color: aliceblue;
+    font-size: 1.75rem;
+    font-weight: 700;
+    padding-top: 2.95rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.review-subtitle{
+    color: #4c4554;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align:left;
+    text-transform: uppercase;
+}
+.review-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px 0px 40px;
+}
+.review-others-videos{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 40px 0px 40px;
+}
+.review-text{
+    color: antiquewhite;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-align: justify;
+    width: 200px;
+}
+.videos iframe{
+    margin: 0 40px;
+}
