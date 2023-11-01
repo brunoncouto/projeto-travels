@@ -1,5 +1,5 @@
 @media screen and (max-width: 425px) {
-    body, .main, .tours, .contact{
+    body, .main, .tours, .review, .contact{
         width: 420px;
     }
     .menu, .menu-lista{
@@ -45,7 +45,7 @@ body, a{
     gap: 0.5rem;
 }
 .main{
-    background-image: url("/travels/img/bg-home-2.jpg");
+    background-image: url("./img/bg-home-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
