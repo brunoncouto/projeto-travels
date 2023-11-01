@@ -1,0 +1,216 @@
+@media screen and (max-width: 425px) {
+    body, .main, .tours, .contact{
+        width: 420px;
+    }
+    .menu, .menu-lista{
+        flex-direction: column;
+    }
+    .main{
+        display: flex;
+        height: 215px;
+    }
+    .tours{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tours-options{
+        flex-direction: column;
+    }
+    .review-subtitle{
+        text-align: center;
+    }
+    .review-info{
+        flex-direction: column;
+    }
+    .review-video{
+        height: 250px;
+        width: max-content
+    }
+}
+body, a{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    background-color: whitesmoke;
+}
+.menu{
+    display: flex;
+    gap: .5rem;
+    padding: 1rem 0;
+    justify-content: space-between;
+}
+.menu-lista{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.main{
+    background-image: url("/travels/img/bg-home-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.texts{
+    color: #000000;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.title-main{
+    font-size: 2rem;
+    color: black
+}
+.text-description{
+    text-align: justify;
+    font-size: 1rem;
+    padding-top: 3rem;
+}
+.title-section{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.descript-section{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 15px;
+    text-align: center;
+    text-transform: lowercase;
+}
+.tours{
+    height: max-content;
+}
+.tours-options{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.tours-item{
+    align-items: center;
+    box-sizing: border-box;
+    border: solid whitesmoke 1px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;    
+    height: 300px;
+    text-align: center;
+    width: 100vw;
+    color: antiquewhite;
+}
+.tour-item-title{
+    font-size: .85rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+.tour-item-text{
+    font-size: .75rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+.tours-item:first-child{
+    background-image: url("./img/london.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+.tours-item:nth-child(2){
+    background-image: url("./img/nyc.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+.tours-item:nth-child(3){
+    background-image: url("./img/paris.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+.tours-item:last-child{
+    background-image: url("./img/toquio.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+.review-title{
+    font-size: 1.75rem;
+    font-weight: 700;
+    padding-top: 2.95rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.review-subtitle{
+    color: #4c4554;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: justify;
+    text-transform: uppercase;
+}
+.review-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+.contact-title{
+    color: black;
+    font-size: 1.85rem;
+    font-weight: 500;
+    padding-top: 1.8rem;
+    text-align: center;
+}
+.contact-text, p{
+    color: black;
+    margin-top: 1.8rem;
+    font-size: 1.15rem;
+    font-weight: 500;
+    text-align: center; 
+    text-transform: lowercase;
+}
+.contact-form{
+    align-items: center ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.select-menu{
+    border: none;
+    background-color: none;
+    margin: 10px 25px 15px 25px;
+    width: 150px;
+}
+.contact-infos{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.contact-infos, input{
+    background: none;
+    border-bottom: 1px solid antiquewhite;
+    border: none;
+    width: 200px;
+}
+input::placeholder, textarea::placeholder, input::value{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: .75rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.contact-name{
+    margin-left: 80px;
+    margin-right: 10px;
+}
+.contact-textarea{
+    border: solid 1px antiquewhite;
+    resize: none;
+}
+.contact-send{
+    background-color: antiquewhite;
+    border: solid 1px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-top: 15px;
+    width: fit-content;
+    
+}
